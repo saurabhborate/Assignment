@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.1.0)
+  - GradientLoadingBar (1.1.17):
+    - LightweightObservable (~> 1.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - LightweightObservable (1.0.3)
+  - QuickLayout (3.0.0)
+  - SDWebImage (5.7.1):
+    - SDWebImage/Core (= 5.7.1)
+  - SDWebImage/Core (5.7.1)
+  - SwiftEntryKit (1.2.3):
+    - QuickLayout (= 3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GradientLoadingBar (~> 1.0)
+  - IQKeyboardManagerSwift
+  - SDWebImage (~> 5.0)
+  - SwiftEntryKit (= 1.2.3)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GradientLoadingBar
+    - IQKeyboardManagerSwift
+    - LightweightObservable
+    - QuickLayout
+    - SDWebImage
+    - SwiftEntryKit
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  GradientLoadingBar: a0e1855e4ba5051301027d5f4a129f38003cc2b9
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  LightweightObservable: 8687e8e1e2940ae2f64d7f71fe78c036d89c966f
+  QuickLayout: 07b45a72b10083fee3f095990cfed1c1e7b27f0a
+  SDWebImage: 5d4cf6afccd9ac1d2ee701ed0c4917cbb1b80536
+  SwiftEntryKit: 340713c2e4a6662c5149629990bf1088bf5f0389
+
+PODFILE CHECKSUM: 3ab9404cb3388fc3781e980901b4210828735f09
+
+COCOAPODS: 1.9.1
