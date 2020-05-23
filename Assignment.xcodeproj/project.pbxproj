@@ -25,6 +25,7 @@
 		E41977FE24784D6800368221 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977FD24784D6800368221 /* BookModel.swift */; };
 		E419780124784FEB00368221 /* BooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419780024784FEB00368221 /* BooksVC.swift */; };
 		E41978032478505200368221 /* BooksVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41978022478505200368221 /* BooksVM.swift */; };
+		E41978052478FFCF00368221 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41978042478FFCF00368221 /* BookCell.swift */; };
 		E644D8F9D7E1AB4B2ADC96A8 /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155A874D0432367E69BF4FCD /* Pods_Assignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		E41977FD24784D6800368221 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
 		E419780024784FEB00368221 /* BooksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksVC.swift; sourceTree = "<group>"; };
 		E41978022478505200368221 /* BooksVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksVM.swift; sourceTree = "<group>"; };
+		E41978042478FFCF00368221 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		EEA53BF553A4008062DE4954 /* Pods-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment.release.xcconfig"; path = "Target Support Files/Pods-Assignment/Pods-Assignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,6 +149,7 @@
 			children = (
 				E419780024784FEB00368221 /* BooksVC.swift */,
 				E41978022478505200368221 /* BooksVM.swift */,
+				E41978042478FFCF00368221 /* BookCell.swift */,
 			);
 			path = "Book Detail Controller";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				E41977F124783AC700368221 /* Box.swift in Sources */,
 				E41977CF2478359C00368221 /* AppDelegate.swift in Sources */,
 				E41977F82478416D00368221 /* DashBoardVM.swift in Sources */,
+				E41978052478FFCF00368221 /* BookCell.swift in Sources */,
 				E419780124784FEB00368221 /* BooksVC.swift in Sources */,
 				E41977FA247844E100368221 /* topicsCell.swift in Sources */,
 				E41977D12478359C00368221 /* SceneDelegate.swift in Sources */,

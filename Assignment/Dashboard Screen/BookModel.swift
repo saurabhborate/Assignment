@@ -28,10 +28,10 @@ class BooksResponse: Codable {
 // MARK: - Result
 class Book: Codable {
     var id: Int?
-  //  var authors: [Author]?
+    var authors: [Author]?
   //  var bookshelves: [String]?
   //  var downloadCount: Int?
-  //  var formats: Formats?
+    var formats: Formats?
 //    var languages: [Language]?
 //    var mediaType: MediaType?
     var subjects: [String]?
@@ -97,6 +97,10 @@ class Formats: Codable {
         self.textRtf = textRtf
         self.textHTMLCharsetISO88591 = textHTMLCharsetISO88591
         self.applicationPrsTex = applicationPrsTex
+    }
+    enum CodingKeys: String, CodingKey {
+        case imageJPEG = "image/jpeg"
+        
     }
 }
 

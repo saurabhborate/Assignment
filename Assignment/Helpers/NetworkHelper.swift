@@ -45,7 +45,7 @@ class networkCalls  {
         
         
         
-        AF.request(urlRequestString, method: method! ,parameters: requestParams, encoding: URLEncoding.default)
+        AF.request(urlRequestString, method: method! ,parameters: requestParams, encoding: URLEncoding.queryString)
             .downloadProgress(queue: DispatchQueue.global(qos: .utility)) { progress in
 //                print("Progress: \(progress.fractionCompleted)")
             }
@@ -53,7 +53,7 @@ class networkCalls  {
             .responseJSON { response in
 
 //                print("Success: \(response.result)")
-//                print("Response String: \(String(describing: response.value))")
+                print("Response String: \(String(describing: response.value))")
                 
                 if let errorDesc = response.error?.localizedDescription
                 {

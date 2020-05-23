@@ -34,6 +34,6 @@ extension ViewController : UITableViewDataSource, UITableViewDelegate {
     }
  
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        viewModel.showTopicsDetail(index: indexPath.row)
+        self.navigationController?.pushViewController(viewModel.showTopicsDetail(index: indexPath.row), animated: true)
     }
 }

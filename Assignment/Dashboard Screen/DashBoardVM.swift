@@ -19,18 +19,10 @@ class DashBoardVM {
 
 extension DashBoardVM {
     
-    func showTopicsDetail(index : Int)  {
-        let parameters = Parameters()
-        
-        networkCalls.fetchGenericCall(urlRequestString: networkConstants.baseUrl + "?topic=humor" , requestParams: parameters, requestMode: .GET, completion: { (response : BooksResponse) in
-            let storyboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
-            var vc : BooksVC =  storyboard.instantiateViewController(withIdentifier: "BooksVC") as! BooksVC
-            vc.viewModel.booksArray = response.results
-        
-        }) { (error) in
-        
-        }
-      
+    func showTopicsDetail(index : Int) -> UIViewController {
+        let storyboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
+        let vc : BooksVC =  storyboard.instantiateViewController(withIdentifier: "BooksVC") as! BooksVC
+        vc.viewModel.searchTopic = topics[index]
+        return vc
     }
-    
 }
