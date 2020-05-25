@@ -16,7 +16,6 @@
 		E41977EF24783AC700368221 /* AppHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977E924783AC700368221 /* AppHelpers.swift */; };
 		E41977F024783AC700368221 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977EA24783AC700368221 /* NetworkHelper.swift */; };
 		E41977F124783AC700368221 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977EB24783AC700368221 /* Box.swift */; };
-		E41977F224783AC700368221 /* CustomUIClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977EC24783AC700368221 /* CustomUIClasses.swift */; };
 		E41977F324783AC700368221 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977ED24783AC700368221 /* AppExtensions.swift */; };
 		E41977F82478416D00368221 /* DashBoardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977F72478416D00368221 /* DashBoardVM.swift */; };
 		E41977FA247844E100368221 /* topicsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977F9247844E100368221 /* topicsCell.swift */; };
@@ -61,7 +60,6 @@
 		E41977E924783AC700368221 /* AppHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHelpers.swift; sourceTree = "<group>"; };
 		E41977EA24783AC700368221 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		E41977EB24783AC700368221 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
-		E41977EC24783AC700368221 /* CustomUIClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIClasses.swift; sourceTree = "<group>"; };
 		E41977ED24783AC700368221 /* AppExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
 		E41977F72478416D00368221 /* DashBoardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardVM.swift; sourceTree = "<group>"; };
 		E41977F9247844E100368221 /* topicsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topicsCell.swift; sourceTree = "<group>"; };
@@ -142,6 +140,7 @@
 		E41977CD2478359C00368221 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				E466DBAD247B92C400C83A07 /* Models */,
 				E43484EB247A39F6004F4E36 /* Resources */,
 				E41977FF24784FB800368221 /* Book Detail Controller */,
 				E41977F4247840EF00368221 /* Dashboard Screen */,
@@ -163,7 +162,6 @@
 				E41977E924783AC700368221 /* AppHelpers.swift */,
 				E41977EA24783AC700368221 /* NetworkHelper.swift */,
 				E41977EB24783AC700368221 /* Box.swift */,
-				E41977EC24783AC700368221 /* CustomUIClasses.swift */,
 				E41977ED24783AC700368221 /* AppExtensions.swift */,
 			);
 			path = Helpers;
@@ -175,7 +173,6 @@
 				E41977FB2478499A00368221 /* ViewController.swift */,
 				E41977F72478416D00368221 /* DashBoardVM.swift */,
 				E41977F9247844E100368221 /* topicsCell.swift */,
-				E41977FD24784D6800368221 /* BookModel.swift */,
 			);
 			path = "Dashboard Screen";
 			sourceTree = "<group>";
@@ -222,6 +219,14 @@
 				E43484FF247A3A1A004F4E36 /* Montserrat-ExtraBoldItalic.ttf */,
 			);
 			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		E466DBAD247B92C400C83A07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E41977FD24784D6800368221 /* BookModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,7 +376,6 @@
 				E41977F024783AC700368221 /* NetworkHelper.swift in Sources */,
 				E41977EF24783AC700368221 /* AppHelpers.swift in Sources */,
 				E41978032478505200368221 /* BooksVM.swift in Sources */,
-				E41977F224783AC700368221 /* CustomUIClasses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
