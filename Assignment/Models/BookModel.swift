@@ -39,25 +39,11 @@ class Book: Codable, Hashable {
     
     var id: Int
     var authors: [Author]?
-    //  var bookshelves: [String]?
-    //  var downloadCount: Int?
     var formats: Formats?
-    //    var languages: [Language]?
-    //    var mediaType: MediaType?
     var subjects: [String]?
     var title: String?
     
-    //    init(id: Int?, authors: [Author]?, bookshelves: [String]?, downloadCount: Int?, formats: Formats?, languages: [Language]?, mediaType: MediaType?, subjects: [String]?, title: String?) {
-    //        self.id = id
-    //        self.authors = authors
-    //        self.bookshelves = bookshelves
-    //        self.downloadCount = downloadCount
-    //        self.formats = formats
-    //        self.languages = languages
-    //        self.mediaType = mediaType
-    //        self.subjects = subjects
-    //        self.title = title
-    //    }
+    
 }
 
 // MARK: - Author
