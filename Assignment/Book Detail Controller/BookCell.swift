@@ -14,14 +14,13 @@ class BookCell: UICollectionViewCell {
     var bookData : Book?
     
     func setupData()  {
-        
-        
         self.contentImage.sd_setImage(with: URL(string: bookData?.formats?.imageJPEG ?? ""), placeholderImage: UIImage(named: "bookDefaultIcon"))
         self.contentImage.addViewBorder(borderColor: UIColor.darkGray.cgColor, borderWith: 1)
         self.title.text = bookData?.title
-        self.author.text = bookData?.authors?[0].name ?? ""
+        if  (bookData?.authors!.count)! > 0{
+            self.author.text =  bookData?.authors?[0].name
+        }
+        
     }
 }
-var description: String {
-    return "description here"
-}
+

@@ -10,11 +10,9 @@ import UIKit
 import Alamofire
 class DashBoardVM {
     
-   let topics = ["Fiction", "Drama", "Humor" , "Politics" , "Philosophy" , "History" , "Adventure"]
+   let topics = ["Fiction", "Drama", "Humour" , "Politics" , "Philosophy" , "History" , "Adventure"]
     
-    
-    
-    
+        
 }
 
 extension DashBoardVM {

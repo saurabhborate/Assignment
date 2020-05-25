@@ -8,16 +8,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var lblTitle: UILabel!
+    
+    @IBOutlet weak var lblSubTitle: UILabel!
+    
     @IBOutlet weak var tableView: UITableView!
+    
     let viewModel = DashBoardVM()
        
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupUI()
         // Do any additional setup after loading the view.
     }
 
-
+    func setupUI(){
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+        self.lblTitle.textColor = UIColor.RoyalBlueColor
+        self.lblSubTitle.textColor = UIColor.MineShaftColor
+    }
 }
 
 
@@ -30,6 +39,7 @@ extension ViewController : UITableViewDataSource, UITableViewDelegate {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "topicsCell", for: indexPath) as! topicsCell
         cell.topicLbl.text = viewModel.topics[indexPath.row]
+        cell.topicImg.image = UIImage.init(named: viewModel.topics[indexPath.row])
         return cell
     }
  
@@ -37,3 +47,4 @@ extension ViewController : UITableViewDataSource, UITableViewDelegate {
         self.navigationController?.pushViewController(viewModel.showTopicsDetail(index: indexPath.row), animated: true)
     }
 }
+

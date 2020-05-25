@@ -16,7 +16,7 @@ class BooksResponse: Codable {
     var next: String?
     var previous: String?
     var results: [Book]?
-
+    
     init(count: Int?, next: String?, previous: String?, results: [Book]?) {
         self.count = count
         self.next = next
@@ -26,35 +26,45 @@ class BooksResponse: Codable {
 }
 
 // MARK: - Result
-class Book: Codable {
-    var id: Int?
+class Book: Codable, Hashable {
+    
+    static func == (lhs: Book, rhs: Book) -> Bool {
+        return lhs.id == rhs.id
+        
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
+    var id: Int
     var authors: [Author]?
-  //  var bookshelves: [String]?
-  //  var downloadCount: Int?
+    //  var bookshelves: [String]?
+    //  var downloadCount: Int?
     var formats: Formats?
-//    var languages: [Language]?
-//    var mediaType: MediaType?
+    //    var languages: [Language]?
+    //    var mediaType: MediaType?
     var subjects: [String]?
     var title: String?
-
-//    init(id: Int?, authors: [Author]?, bookshelves: [String]?, downloadCount: Int?, formats: Formats?, languages: [Language]?, mediaType: MediaType?, subjects: [String]?, title: String?) {
-//        self.id = id
-//        self.authors = authors
-//        self.bookshelves = bookshelves
-//        self.downloadCount = downloadCount
-//        self.formats = formats
-//        self.languages = languages
-//        self.mediaType = mediaType
-//        self.subjects = subjects
-//        self.title = title
-//    }
+    
+    //    init(id: Int?, authors: [Author]?, bookshelves: [String]?, downloadCount: Int?, formats: Formats?, languages: [Language]?, mediaType: MediaType?, subjects: [String]?, title: String?) {
+    //        self.id = id
+    //        self.authors = authors
+    //        self.bookshelves = bookshelves
+    //        self.downloadCount = downloadCount
+    //        self.formats = formats
+    //        self.languages = languages
+    //        self.mediaType = mediaType
+    //        self.subjects = subjects
+    //        self.title = title
+    //    }
 }
 
 // MARK: - Author
 class Author: Codable {
     var birthYear, deathYear: Int?
     var name: String?
-
+    
     init(birthYear: Int?, deathYear: Int?, name: String?) {
         self.birthYear = birthYear
         self.deathYear = deathYear
@@ -79,7 +89,7 @@ class Formats: Codable {
     var textRtf: String?
     var textHTMLCharsetISO88591: String?
     var applicationPrsTex: String?
-
+    
     init(applicationXMobipocketEbook: String?, applicationPDF: String?, textPlainCharsetUsASCII: String?, textPlainCharsetUTF8: String?, applicationRDFXML: String?, applicationZip: String?, applicationEpubZip: String?, textHTMLCharsetUTF8: String?, textPlainCharsetISO88591: String?, imageJPEG: String?, textPlain: String?, textHTMLCharsetUsASCII: String?, textHTML: String?, textRtf: String?, textHTMLCharsetISO88591: String?, applicationPrsTex: String?) {
         self.applicationXMobipocketEbook = applicationXMobipocketEbook
         self.applicationPDF = applicationPDF
@@ -100,7 +110,7 @@ class Formats: Codable {
     }
     enum CodingKeys: String, CodingKey {
         case imageJPEG = "image/jpeg"
-        
+        case textHTMLCharsetISO88591 = "text/html; charset=iso-8859-1"
     }
 }
 
