@@ -9,5 +9,4 @@ target 'Assignment' do
  pod 'SDWebImage', '~> 5.0'
  pod 'GradientLoadingBar', '~> 1.0'
  pod 'IQKeyboardManagerSwift'
- pod 'SwiftEntryKit', '1.2.3'
 end

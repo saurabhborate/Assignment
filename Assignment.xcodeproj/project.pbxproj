@@ -18,7 +18,6 @@
 		E41977F124783AC700368221 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977EB24783AC700368221 /* Box.swift */; };
 		E41977F224783AC700368221 /* CustomUIClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977EC24783AC700368221 /* CustomUIClasses.swift */; };
 		E41977F324783AC700368221 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977ED24783AC700368221 /* AppExtensions.swift */; };
-		E41977F62478415700368221 /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977F52478415700368221 /* DashBoardVC.swift */; };
 		E41977F82478416D00368221 /* DashBoardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977F72478416D00368221 /* DashBoardVM.swift */; };
 		E41977FA247844E100368221 /* topicsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977F9247844E100368221 /* topicsCell.swift */; };
 		E41977FC2478499A00368221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977FB2478499A00368221 /* ViewController.swift */; };
@@ -64,7 +63,6 @@
 		E41977EB24783AC700368221 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		E41977EC24783AC700368221 /* CustomUIClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIClasses.swift; sourceTree = "<group>"; };
 		E41977ED24783AC700368221 /* AppExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
-		E41977F52478415700368221 /* DashBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
 		E41977F72478416D00368221 /* DashBoardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardVM.swift; sourceTree = "<group>"; };
 		E41977F9247844E100368221 /* topicsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topicsCell.swift; sourceTree = "<group>"; };
 		E41977FB2478499A00368221 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				E41977FB2478499A00368221 /* ViewController.swift */,
-				E41977F52478415700368221 /* DashBoardVC.swift */,
 				E41977F72478416D00368221 /* DashBoardVM.swift */,
 				E41977F9247844E100368221 /* topicsCell.swift */,
 				E41977FD24784D6800368221 /* BookModel.swift */,
@@ -372,7 +369,6 @@
 				E41977FC2478499A00368221 /* ViewController.swift in Sources */,
 				E41977EE24783AC700368221 /* Constants.swift in Sources */,
 				E41977F024783AC700368221 /* NetworkHelper.swift in Sources */,
-				E41977F62478415700368221 /* DashBoardVC.swift in Sources */,
 				E41977EF24783AC700368221 /* AppHelpers.swift in Sources */,
 				E41978032478505200368221 /* BooksVM.swift in Sources */,
 				E41977F224783AC700368221 /* CustomUIClasses.swift in Sources */,
