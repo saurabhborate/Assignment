@@ -1,9 +1,8 @@
 //
 //  NetworkHelper.swift
-//  intellicar
+//  Assignment
 //
-//  Created by Ketan on 28/01/20.
-//  Copyright © 2020 Ketan Doiphode. All rights reserved.
+//  Created by Saurabh Borate on 28/06/20.
 //
 
 import Foundation
@@ -26,7 +25,7 @@ class networkCalls  {
     }
     
     
-    static func fetchGenericCall<T: Codable>( urlRequestString:String , requestParams : Parameters ,requestMode: HTTPOperationCode, completion : @escaping (T) -> (), onError: @escaping errorBlock)
+    static func fetchGenericCall<T: Codable>( urlRequestString:String , requestParams : Parameters? ,requestMode: HTTPOperationCode, completion : @escaping ([T]) -> (), onError: @escaping errorBlock)//
     {
         
         var method : HTTPMethod? = .get
@@ -53,7 +52,7 @@ class networkCalls  {
             .responseJSON { response in
 
 //                print("Success: \(response.result)")
-                print("Response String: \(String(describing: response.value))")
+              //  print("Response String: \(String(describing: response.value))")
                 
                 if let errorDesc = response.error?.localizedDescription
                 {
@@ -80,7 +79,9 @@ class networkCalls  {
                 {
 
                     do {
-                        let genericObject = try JSONDecoder().decode(T.self, from: response.data!)
+                        
+                      //  let repos = decoder.decode([T].self, from: data)
+                        let genericObject = try JSONDecoder().decode([T].self, from: response.data!)
                         completion(genericObject)
                     } catch let error {
                         print(error)

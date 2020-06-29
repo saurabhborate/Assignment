@@ -1,9 +1,8 @@
 //
 //  Box.swift
-//  totalitycorp
+//  Assignment
 //
-//  Created by Ketan on 28/01/20.
-//  Copyright © 2020 Ketan Doiphode. All rights reserved.
+//  Created by Saurabh Borate on 28/06/20.
 //
 
 import Foundation

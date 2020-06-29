@@ -13,17 +13,9 @@
 		E41977D8247835A000368221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41977D7247835A000368221 /* Assets.xcassets */; };
 		E41977DB247835A000368221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41977D9247835A000368221 /* LaunchScreen.storyboard */; };
 		E41977EE24783AC700368221 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977E824783AC700368221 /* Constants.swift */; };
-		E41977EF24783AC700368221 /* AppHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977E924783AC700368221 /* AppHelpers.swift */; };
 		E41977F024783AC700368221 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977EA24783AC700368221 /* NetworkHelper.swift */; };
 		E41977F124783AC700368221 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977EB24783AC700368221 /* Box.swift */; };
 		E41977F324783AC700368221 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977ED24783AC700368221 /* AppExtensions.swift */; };
-		E41977F82478416D00368221 /* DashBoardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977F72478416D00368221 /* DashBoardVM.swift */; };
-		E41977FA247844E100368221 /* topicsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977F9247844E100368221 /* topicsCell.swift */; };
-		E41977FC2478499A00368221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977FB2478499A00368221 /* ViewController.swift */; };
-		E41977FE24784D6800368221 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41977FD24784D6800368221 /* BookModel.swift */; };
-		E419780124784FEB00368221 /* BooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419780024784FEB00368221 /* BooksVC.swift */; };
-		E41978032478505200368221 /* BooksVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41978022478505200368221 /* BooksVM.swift */; };
-		E41978052478FFCF00368221 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41978042478FFCF00368221 /* BookCell.swift */; };
 		E4348500247A3A1A004F4E36 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E43484ED247A3A1A004F4E36 /* Montserrat-LightItalic.ttf */; };
 		E4348501247A3A1A004F4E36 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E43484EE247A3A1A004F4E36 /* Montserrat-Medium.ttf */; };
 		E4348502247A3A1A004F4E36 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E43484EF247A3A1A004F4E36 /* Montserrat-BoldItalic.ttf */; };
@@ -43,6 +35,13 @@
 		E4348510247A3A1A004F4E36 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E43484FD247A3A1A004F4E36 /* Montserrat-Italic.ttf */; };
 		E4348511247A3A1A004F4E36 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E43484FE247A3A1A004F4E36 /* Montserrat-SemiBoldItalic.ttf */; };
 		E4348512247A3A1A004F4E36 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E43484FF247A3A1A004F4E36 /* Montserrat-ExtraBoldItalic.ttf */; };
+		E46107DE24A7238D00B9C56B /* MediaCellWithoutImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46107DD24A7238D00B9C56B /* MediaCellWithoutImage.swift */; };
+		E4A06F4D24A4851800B0DA57 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A06F4C24A4851800B0DA57 /* Article.swift */; };
+		E4A06F4F24A486AF00B0DA57 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A06F4E24A486AF00B0DA57 /* Media.swift */; };
+		E4A06F5124A4874900B0DA57 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A06F5024A4874900B0DA57 /* User.swift */; };
+		E4A06F5424A4894B00B0DA57 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A06F5324A4894B00B0DA57 /* HomeViewController.swift */; };
+		E4A06F5624A4896700B0DA57 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A06F5524A4896700B0DA57 /* HomeViewModel.swift */; };
+		E4A06F5824A4899D00B0DA57 /* MediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A06F5724A4899D00B0DA57 /* MediaCell.swift */; };
 		E644D8F9D7E1AB4B2ADC96A8 /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155A874D0432367E69BF4FCD /* Pods_Assignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,17 +56,9 @@
 		E41977DA247835A000368221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E41977DC247835A000368221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E41977E824783AC700368221 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		E41977E924783AC700368221 /* AppHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHelpers.swift; sourceTree = "<group>"; };
 		E41977EA24783AC700368221 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		E41977EB24783AC700368221 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		E41977ED24783AC700368221 /* AppExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
-		E41977F72478416D00368221 /* DashBoardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardVM.swift; sourceTree = "<group>"; };
-		E41977F9247844E100368221 /* topicsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topicsCell.swift; sourceTree = "<group>"; };
-		E41977FB2478499A00368221 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E41977FD24784D6800368221 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
-		E419780024784FEB00368221 /* BooksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksVC.swift; sourceTree = "<group>"; };
-		E41978022478505200368221 /* BooksVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksVM.swift; sourceTree = "<group>"; };
-		E41978042478FFCF00368221 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		E43484ED247A3A1A004F4E36 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
 		E43484EE247A3A1A004F4E36 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		E43484EF247A3A1A004F4E36 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -87,6 +78,13 @@
 		E43484FD247A3A1A004F4E36 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
 		E43484FE247A3A1A004F4E36 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		E43484FF247A3A1A004F4E36 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E46107DD24A7238D00B9C56B /* MediaCellWithoutImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCellWithoutImage.swift; sourceTree = "<group>"; };
+		E4A06F4C24A4851800B0DA57 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		E4A06F4E24A486AF00B0DA57 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		E4A06F5024A4874900B0DA57 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E4A06F5324A4894B00B0DA57 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E4A06F5524A4896700B0DA57 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E4A06F5724A4899D00B0DA57 /* MediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCell.swift; sourceTree = "<group>"; };
 		EEA53BF553A4008062DE4954 /* Pods-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment.release.xcconfig"; path = "Target Support Files/Pods-Assignment/Pods-Assignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,10 +138,9 @@
 		E41977CD2478359C00368221 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				E466DBAD247B92C400C83A07 /* Models */,
+				E4A06F5224A4891700B0DA57 /* AppModules */,
+				E4A06F4B24A484DF00B0DA57 /* Models */,
 				E43484EB247A39F6004F4E36 /* Resources */,
-				E41977FF24784FB800368221 /* Book Detail Controller */,
-				E41977F4247840EF00368221 /* Dashboard Screen */,
 				E41977E724783AC700368221 /* Helpers */,
 				E41977CE2478359C00368221 /* AppDelegate.swift */,
 				E41977D02478359C00368221 /* SceneDelegate.swift */,
@@ -159,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				E41977E824783AC700368221 /* Constants.swift */,
-				E41977E924783AC700368221 /* AppHelpers.swift */,
 				E41977EA24783AC700368221 /* NetworkHelper.swift */,
 				E41977EB24783AC700368221 /* Box.swift */,
 				E41977ED24783AC700368221 /* AppExtensions.swift */,
@@ -167,24 +163,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		E41977F4247840EF00368221 /* Dashboard Screen */ = {
+		E41977FF24784FB800368221 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E41977FB2478499A00368221 /* ViewController.swift */,
-				E41977F72478416D00368221 /* DashBoardVM.swift */,
-				E41977F9247844E100368221 /* topicsCell.swift */,
+				E4A06F5324A4894B00B0DA57 /* HomeViewController.swift */,
+				E4A06F5524A4896700B0DA57 /* HomeViewModel.swift */,
+				E4A06F5724A4899D00B0DA57 /* MediaCell.swift */,
+				E46107DD24A7238D00B9C56B /* MediaCellWithoutImage.swift */,
 			);
-			path = "Dashboard Screen";
-			sourceTree = "<group>";
-		};
-		E41977FF24784FB800368221 /* Book Detail Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E419780024784FEB00368221 /* BooksVC.swift */,
-				E41978022478505200368221 /* BooksVM.swift */,
-				E41978042478FFCF00368221 /* BookCell.swift */,
-			);
-			path = "Book Detail Controller";
+			path = Home;
 			sourceTree = "<group>";
 		};
 		E43484EB247A39F6004F4E36 /* Resources */ = {
@@ -221,12 +208,22 @@
 			path = Montserrat;
 			sourceTree = "<group>";
 		};
-		E466DBAD247B92C400C83A07 /* Models */ = {
+		E4A06F4B24A484DF00B0DA57 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E41977FD24784D6800368221 /* BookModel.swift */,
+				E4A06F4C24A4851800B0DA57 /* Article.swift */,
+				E4A06F4E24A486AF00B0DA57 /* Media.swift */,
+				E4A06F5024A4874900B0DA57 /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E4A06F5224A4891700B0DA57 /* AppModules */ = {
+			isa = PBXGroup;
+			children = (
+				E41977FF24784FB800368221 /* Home */,
+			);
+			path = AppModules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,20 +359,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46107DE24A7238D00B9C56B /* MediaCellWithoutImage.swift in Sources */,
 				E41977F324783AC700368221 /* AppExtensions.swift in Sources */,
 				E41977F124783AC700368221 /* Box.swift in Sources */,
 				E41977CF2478359C00368221 /* AppDelegate.swift in Sources */,
-				E41977F82478416D00368221 /* DashBoardVM.swift in Sources */,
-				E41978052478FFCF00368221 /* BookCell.swift in Sources */,
-				E419780124784FEB00368221 /* BooksVC.swift in Sources */,
-				E41977FA247844E100368221 /* topicsCell.swift in Sources */,
+				E4A06F5124A4874900B0DA57 /* User.swift in Sources */,
+				E4A06F5424A4894B00B0DA57 /* HomeViewController.swift in Sources */,
+				E4A06F4D24A4851800B0DA57 /* Article.swift in Sources */,
 				E41977D12478359C00368221 /* SceneDelegate.swift in Sources */,
-				E41977FE24784D6800368221 /* BookModel.swift in Sources */,
-				E41977FC2478499A00368221 /* ViewController.swift in Sources */,
+				E4A06F5824A4899D00B0DA57 /* MediaCell.swift in Sources */,
 				E41977EE24783AC700368221 /* Constants.swift in Sources */,
 				E41977F024783AC700368221 /* NetworkHelper.swift in Sources */,
-				E41977EF24783AC700368221 /* AppHelpers.swift in Sources */,
-				E41978032478505200368221 /* BooksVM.swift in Sources */,
+				E4A06F5624A4896700B0DA57 /* HomeViewModel.swift in Sources */,
+				E4A06F4F24A486AF00B0DA57 /* Media.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BV2N43Z9H;
 				INFOPLIST_FILE = Assignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -539,6 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BV2N43Z9H;
 				INFOPLIST_FILE = Assignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

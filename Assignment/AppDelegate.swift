@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Assignment
 //
-//  Created by Saurabh Borate on 22/05/20.
+//  Created by Saurabh Borate on 28/06/20.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Override point for customization after application launch.        
         return true
     }
 

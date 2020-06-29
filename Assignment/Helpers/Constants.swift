@@ -1,11 +1,9 @@
 //
 //  Constants.swift
-//  intellicar
+//  Assignment
 //
-//  Created by Ketan on 28/01/20.
-//  Copyright © 2020 Ketan Doiphode. All rights reserved.
+//  Created by Saurabh Borate on 28/06/20.
 //
-
 import Foundation
 import UIKit
 class genericConstants {
@@ -15,7 +13,7 @@ class genericConstants {
 
 
 struct networkConstants {
-    static let baseUrl = "http://skunkworks.ignitesol.com:8000/books​"
+    static let baseUrl = "https://5e99a9b1bc561b0016af3540.mockapi.io/jet2/api/v1/blogs?page=1&limit=10"
     
 }
 extension UIColor {
@@ -46,10 +44,4 @@ extension UIColor {
         return String(format:"#%06x", rgb)
     }
 }
-extension UIColor{
-    static let RoyalBlueColor = UIColor.init(hexString: "5E56E7")
-    static let TitanWhiteColor = UIColor.init(hexString: "F8F7FF")
-    static let AthensGrayColor = UIColor.init(hexString: "F0F0F6")
-    static let SilverChaliceColor = UIColor.init(hexString: "A0A0A0")
-    static let MineShaftColor = UIColor.init(hexString: "333333")
-}
+
